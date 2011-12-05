@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BoulderWeather!</string>
+    <string name="app_name">Boulder Weather</string>
+    <string name="widget_text">Hello Widget!</string>
+    <string name="boulder">Boulder</string>
+    <string name="foothills">Foothills</string>
+    <string name="mesa">Mesa</string>
+    <string name="temp">Temp / Dew</string>
+    <string name="H_P">Humidity/P</string>
+    <string name="wind">Wind Speed</string>
+    <string name="na">N/A</string>
+    <string name="ncar">NCAR</string>
+    <string name="weather_stations">Weather Stations</string>
+    <string name="weather_forecasts">Weather Forecasts</string>
+    <string name="ncar_mesa">NCAR Foothills Labs</string>
+    <string name="ncar_foothills">NCAR Mesa Labs</string>
+    <string name="satellite_imagery">Satellite Imagery</string>
+    <string name="visible_satellite">Visible Satellite</string>
+    <string name="loop">Loop</string>
+    <string name="nws">National Weather Service</string>
+    <string name="wunderground">WUnderground</string>
+    <string name="weather_channel">Weather Channel</string>
+    <string name="colorado_weather">Colorado Weather (Josh Larson)</string>
+    <string name="boulder_weather_tweets">Boulder Weather Tweets</string>
+</resources>

@@ -1,0 +1,37 @@
+Boulder weather yo!
+
+Created by Henry Koren.
+
+Thanks to Gary Granger at NCAR for the data feed.
+
+This app currently draws data from NCAR's foothill and mesa weather stations
+
+http://kmz.me/foothills
+http://kmz.me/mesa
+
+Some day soon it will do something good with the data, such as:
+
+* expose it as a web service for consumption by a mobile app
+* have an awesome front end for producing dynamic plots with a graphing library such as flot
+
+Right now it just eats data into the weather table which has this structure:
+
+CREATE TABLE `weather` (
+  `id` int(11) NOT NULL auto_increment,
+  `station` char(2) NOT NULL,
+  `temp_deg_c` float default NULL,
+  `relative_humidity` float default NULL,
+  `dewpoint_deg_c` float default NULL,
+  `wind_chill_deg_c` float default NULL,
+  `pressure_millibars` float default NULL,
+  `aeronautical_correction_millibars` float default NULL,
+  `wind_speed_m_per_s` float default NULL,
+  `peak_gust_m_per_s` float default NULL,
+  `wind_from_dir` char(3) default NULL,
+  `wind_from_deg` float default NULL,
+  `rain_accumulation_mm` float default NULL,
+  `timestamp` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=92 DEFAULT CHARSET=latin1$$
+
+

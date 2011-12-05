@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/weather_stations"
+    android:textSize="24dip"
+    />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView  
+    android:layout_width="wrap_content"
+    android:layout_weight="1" 
+    android:layout_height="wrap_content" 
+    android:text="@string/ncar"
+    />
+    <Button  
+    android:id="@+id/ncar_foothills"
+    android:layout_width="wrap_content" 
+    android:layout_weight="1" 
+    android:layout_height="wrap_content" 
+    android:text="@string/foothills"
+    />
+    <Button  
+    android:id="@+id/ncar_mesa"
+    android:layout_width="wrap_content" 
+    android:layout_weight="1" 
+    android:layout_height="wrap_content" 
+    android:text="@string/mesa"
+    />
+    </LinearLayout>
+    
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/satellite_imagery"
+    android:textSize="24dip"/>
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <Button  
+    android:id="@+id/visible_satellite"
+    android:layout_width="wrap_content" 
+    android:layout_weight="1" 
+    android:layout_height="wrap_content" 
+    android:text="@string/visible_satellite"
+    />
+    <Button  
+    android:id="@+id/visible_satellite_loop"
+    android:layout_width="wrap_content" 
+    android:layout_weight="1" 
+    android:layout_height="wrap_content" 
+    android:text="@string/loop"
+    />
+    </LinearLayout>
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/weather_forecasts"
+    android:textSize="24dip"/>
+    
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <Button  
+    android:id="@+id/colorado_weather"
+    android:layout_width="wrap_content" 
+    android:layout_weight="1" 
+    android:layout_height="wrap_content" 
+    android:text="@string/colorado_weather"
+    />
+    <Button
+    android:id="@+id/boulder_weather_twitter"
+    android:layout_width="wrap_content" 
+    android:layout_weight="1" 
+    android:layout_height="wrap_content" 
+    android:text="@string/boulder_weather_tweets"
+    />
+    
+    </LinearLayout>
+    
+</LinearLayout>
